@@ -1,0 +1,19 @@
+# Zapier CEO Copilot: Shareable Skills
+
+> Three agent skills Wade Foster (Co-Founder & CEO, Zapier) demoed at Running Remote 2026, cleaned up into general-purpose, tool-agnostic Markdown skill files you can drop into Claude Code, Cursor, Claude Projects, or any chatbot.
+
+## Skills
+
+- [War Council](https://github.com/zapier/wade-skills/blob/main/war-council/SKILL.md): Convenes a panel of opinionated expert personas to stress-test a decision and return a ranked, bet-weighted recommendation.
+- [Meeting Follow-Up Pipeline](https://github.com/zapier/wade-skills/blob/main/meeting-follow-up-pipeline/SKILL.md): Turns a finished meeting into a debrief, decisions, action items, ready-to-send follow-up drafts, and proposed writebacks.
+- [Exec Weekly Agenda Generator](https://github.com/zapier/wade-skills/blob/main/exec-weekly-agenda-generator/SKILL.md): Sweeps the week across meetings, chat, email, and calendar into a forced-ranked list of topics for a leadership meeting.
+
+## Start here
+
+- [README](https://github.com/zapier/wade-skills/blob/main/README.md): what this repo is, the three skills, and how to install them.
+- [AGENTS.md](https://github.com/zapier/wade-skills/blob/main/AGENTS.md): install and usage guidance for AI agents.
+
+## Optional
+
+- [NOTICE](https://github.com/zapier/wade-skills/blob/main/NOTICE): trademark, third-party, AI-output, and data-privacy terms — read before use.
+- [LICENSE](https://github.com/zapier/wade-skills/blob/main/LICENSE): MIT.
