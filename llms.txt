@@ -4,14 +4,15 @@
 
 ## Skills
 
-- [War Council](https://github.com/zapier/wade-skills/blob/main/war-council/SKILL.md): Convenes a panel of opinionated expert personas to stress-test a decision and return a ranked, bet-weighted recommendation.
-- [Meeting Follow-Up Pipeline](https://github.com/zapier/wade-skills/blob/main/meeting-follow-up-pipeline/SKILL.md): Turns a finished meeting into a debrief, decisions, action items, ready-to-send follow-up drafts, and proposed writebacks.
-- [Exec Weekly Agenda Generator](https://github.com/zapier/wade-skills/blob/main/exec-weekly-agenda-generator/SKILL.md): Sweeps the week across meetings, chat, email, and calendar into a forced-ranked list of topics for a leadership meeting.
+- [War Council](https://github.com/zapier/wade-skills/blob/main/skills/war-council/SKILL.md): Convenes a panel of opinionated expert personas to stress-test a decision and return a ranked, bet-weighted recommendation.
+- [Meeting Follow-Up Pipeline](https://github.com/zapier/wade-skills/blob/main/skills/meeting-follow-up-pipeline/SKILL.md): Turns a finished meeting into a debrief, decisions, action items, ready-to-send follow-up drafts, and proposed writebacks.
+- [Exec Weekly Agenda Generator](https://github.com/zapier/wade-skills/blob/main/skills/exec-weekly-agenda-generator/SKILL.md): Sweeps the week across meetings, chat, email, and calendar into a forced-ranked list of topics for a leadership meeting.
 
 ## Start here
 
 - [README](https://github.com/zapier/wade-skills/blob/main/README.md): what this repo is, the three skills, and how to install them.
 - [AGENTS.md](https://github.com/zapier/wade-skills/blob/main/AGENTS.md): install and usage guidance for AI agents.
+- [Claude Code plugin manifest](https://github.com/zapier/wade-skills/blob/main/.claude-plugin/plugin.json): install via `/plugin install wade-skills@zapier` once added to `zapier/marketplace`.
 
 ## Optional
 

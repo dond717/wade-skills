@@ -8,13 +8,15 @@ A "skill" here is just a Markdown file that tells an AI agent (Cursor, Claude Co
 
 | Skill | What it does |
 |-------|--------------|
-| [`war-council/SKILL.md`](war-council/SKILL.md) | Convenes a panel of opinionated expert personas (ruthless CFO, contrarian board member, customer obsessive, plus experts generated for your specific problem) to stress-test a decision and return a ranked, bet-weighted recommendation. |
-| [`meeting-follow-up-pipeline/SKILL.md`](meeting-follow-up-pipeline/SKILL.md) | Turns a finished meeting into a debrief, decisions, action items, ready-to-send follow-up drafts, and proposed writebacks into your task/CRM systems. |
-| [`exec-weekly-agenda-generator/SKILL.md`](exec-weekly-agenda-generator/SKILL.md) | Sweeps your week across meetings, chat, email, and calendar, then produces a forced-ranked list of 5-10 topics worth the leadership team's time. |
+| [`war-council/SKILL.md`](skills/war-council/SKILL.md) | Convenes a panel of opinionated expert personas (ruthless CFO, contrarian board member, customer obsessive, plus experts generated for your specific problem) to stress-test a decision and return a ranked, bet-weighted recommendation. |
+| [`meeting-follow-up-pipeline/SKILL.md`](skills/meeting-follow-up-pipeline/SKILL.md) | Turns a finished meeting into a debrief, decisions, action items, ready-to-send follow-up drafts, and proposed writebacks into your task/CRM systems. |
+| [`exec-weekly-agenda-generator/SKILL.md`](skills/exec-weekly-agenda-generator/SKILL.md) | Sweeps your week across meetings, chat, email, and calendar, then produces a forced-ranked list of 5-10 topics worth the leadership team's time. |
 
 ## How to Use Them
 
-**In Cursor or Claude Code:** drop the folder into `.cursor/skills/` (Cursor) or `.claude/skills/` (Claude Code). The YAML frontmatter at the top of each file (`name` + `description`) is what tells the agent when to invoke it automatically. You can also just paste the file contents into a chat and say "follow this."
+**In Claude Code:** install as a plugin — `/plugin marketplace add zapier/marketplace` then `/plugin install wade-skills@zapier`. All three skills become available automatically.
+
+**In Cursor or Claude Code (manual):** drop a skill's folder into `.cursor/skills/` (Cursor) or `.claude/skills/` (Claude Code). The YAML frontmatter at the top of each file (`name` + `description`) is what tells the agent when to invoke it automatically. You can also just paste the file contents into a chat and say "follow this."
 
 **In Claude Projects / a custom GPT / any chatbot:** paste the skill file into the system prompt or project knowledge. Then trigger it with the phrases listed under "When to Use."
 

@@ -12,13 +12,16 @@ This repo is shared as-is. **External contributions aren't accepted** — see [R
 
 | Skill | File | What it does |
 |---|---|---|
-| War Council | [war-council/SKILL.md](./war-council/SKILL.md) | Convenes a panel of expert personas to stress-test a decision and return a ranked, bet-weighted recommendation. |
-| Meeting Follow-Up Pipeline | [meeting-follow-up-pipeline/SKILL.md](./meeting-follow-up-pipeline/SKILL.md) | Turns a finished meeting into a debrief, decisions, action items, and proposed writebacks. |
-| Exec Weekly Agenda Generator | [exec-weekly-agenda-generator/SKILL.md](./exec-weekly-agenda-generator/SKILL.md) | Sweeps the week's meetings, chat, email, and calendar into a forced-ranked leadership agenda. |
+| War Council | [war-council/SKILL.md](./skills/war-council/SKILL.md) | Convenes a panel of expert personas to stress-test a decision and return a ranked, bet-weighted recommendation. |
+| Meeting Follow-Up Pipeline | [meeting-follow-up-pipeline/SKILL.md](./skills/meeting-follow-up-pipeline/SKILL.md) | Turns a finished meeting into a debrief, decisions, action items, and proposed writebacks. |
+| Exec Weekly Agenda Generator | [exec-weekly-agenda-generator/SKILL.md](./skills/exec-weekly-agenda-generator/SKILL.md) | Sweeps the week's meetings, chat, email, and calendar into a forced-ranked leadership agenda. |
+
+This repo is also a Claude Code plugin (see [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json)) — its skills are discovered automatically from [`skills/`](./skills/) once installed.
 
 ## Installing a skill
 
-- **Claude Code / Cursor**: copy the skill's folder into `.claude/skills/` or `.cursor/skills/`. The `name` and `description` in its frontmatter is what triggers automatic invocation.
+- **Claude Code**: install as a plugin — `/plugin marketplace add zapier/marketplace` then `/plugin install wade-skills@zapier`.
+- **Cursor, or Claude Code without the plugin**: copy the skill's folder into `.cursor/skills/` or `.claude/skills/`. The `name` and `description` in its frontmatter is what triggers automatic invocation.
 - **Claude Projects / a custom GPT / any chatbot**: paste the `SKILL.md` contents into the system prompt or project knowledge, then trigger it with the phrases listed under that skill's "When to Use" section.
 
 Each skill has `[BRACKETED]` placeholders under a "Setup" section. Fill those in once for the user's stack (meeting-notes tool, CRM, leadership roster, etc.) before running it for real.
