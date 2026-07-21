@@ -13,6 +13,8 @@
 - [README](https://github.com/zapier/wade-skills/blob/main/README.md): what this repo is, the three skills, and how to install them.
 - [AGENTS.md](https://github.com/zapier/wade-skills/blob/main/AGENTS.md): install and usage guidance for AI agents.
 - [Claude Code plugin manifest](https://github.com/zapier/wade-skills/blob/main/.claude-plugin/plugin.json): install via `/plugin install wade-skills@zapier` once added to `zapier/marketplace`.
+- [Codex plugin manifest](https://github.com/zapier/wade-skills/blob/main/.codex-plugin/plugin.json): install via `codex plugin add wade-skills@zapier` once added to `zapier/marketplace`.
+- [Copilot CLI plugin manifest](https://github.com/zapier/wade-skills/blob/main/.github/plugin/plugin.json): install via `copilot plugin install wade-skills@zapier` once added to `zapier/marketplace`.
 
 ## Optional
 

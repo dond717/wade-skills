@@ -16,11 +16,13 @@ This repo is shared as-is. **External contributions aren't accepted** — see [R
 | Meeting Follow-Up Pipeline | [meeting-follow-up-pipeline/SKILL.md](./skills/meeting-follow-up-pipeline/SKILL.md) | Turns a finished meeting into a debrief, decisions, action items, and proposed writebacks. |
 | Exec Weekly Agenda Generator | [exec-weekly-agenda-generator/SKILL.md](./skills/exec-weekly-agenda-generator/SKILL.md) | Sweeps the week's meetings, chat, email, and calendar into a forced-ranked leadership agenda. |
 
-This repo is also a Claude Code plugin (see [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json)) — its skills are discovered automatically from [`skills/`](./skills/) once installed.
+This repo is also a Claude Code plugin (see [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json)), an OpenAI Codex plugin (see [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json)), and a GitHub Copilot CLI plugin (see [`.github/plugin/plugin.json`](./.github/plugin/plugin.json)) — its skills are discovered automatically from [`skills/`](./skills/) once installed on any of them.
 
 ## Installing a skill
 
-- **Claude Code**: install as a plugin — `/plugin marketplace add zapier/marketplace` then `/plugin install wade-skills@zapier`.
+- **Claude Code**: install as a plugin — `claude plugin marketplace add zapier/marketplace` then `claude plugin install wade-skills@zapier`.
+- **OpenAI Codex**: `codex plugin marketplace add zapier/marketplace` then `codex plugin add wade-skills@zapier`.
+- **GitHub Copilot CLI**: `copilot plugin marketplace add zapier/marketplace` then `copilot plugin install wade-skills@zapier`.
 - **Cursor, or Claude Code without the plugin**: copy the skill's folder into `.cursor/skills/` or `.claude/skills/`. The `name` and `description` in its frontmatter is what triggers automatic invocation.
 - **Claude Projects / a custom GPT / any chatbot**: paste the `SKILL.md` contents into the system prompt or project knowledge, then trigger it with the phrases listed under that skill's "When to Use" section.
 

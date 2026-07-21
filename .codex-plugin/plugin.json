@@ -1,0 +1,39 @@
+{
+  "name": "wade-skills",
+  "version": "0.1.0",
+  "description": "Agent skills Wade Foster (Co-Founder & CEO, Zapier) uses day-to-day — War Council, Meeting Follow-Up Pipeline, and Exec Weekly Agenda Generator.",
+  "author": {
+    "name": "Zapier",
+    "email": "support@zapier.com",
+    "url": "https://zapier.com"
+  },
+  "homepage": "https://github.com/zapier/wade-skills",
+  "repository": "https://github.com/zapier/wade-skills",
+  "license": "MIT",
+  "keywords": [
+    "zapier",
+    "skills",
+    "ai-agents",
+    "automation",
+    "prompt-engineering",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Zapier CEO Copilot",
+    "shortDescription": "Wade Foster's day-to-day agent skills: War Council, meeting follow-ups, and weekly agenda generation.",
+    "longDescription": "Three of the agent skills Wade Foster (Co-Founder & CEO, Zapier) demoed during his Running Remote 2026 fireside chat, cleaned up into general-purpose, tool-agnostic versions. Convene a panel of expert personas to stress-test a decision, turn a finished meeting into drafted follow-ups, or sweep your week into a forced-ranked leadership agenda.",
+    "developerName": "Zapier",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/zapier/wade-skills",
+    "privacyPolicyURL": "https://zapier.com/privacy",
+    "termsOfServiceURL": "https://zapier.com/tos",
+    "defaultPrompt": [
+      "Run a War Council on this decision",
+      "Turn today's meeting into follow-up drafts",
+      "Generate this week's leadership agenda"
+    ],
+    "brandColor": "#FF4F00"
+  }
+}

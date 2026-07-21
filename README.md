@@ -14,7 +14,11 @@ A "skill" here is just a Markdown file that tells an AI agent (Cursor, Claude Co
 
 ## How to Use Them
 
-**In Claude Code:** install as a plugin — `/plugin marketplace add zapier/marketplace` then `/plugin install wade-skills@zapier`. All three skills become available automatically.
+**In Claude Code:** install as a plugin — `claude plugin marketplace add zapier/marketplace` then `claude plugin install wade-skills@zapier`. All three skills become available automatically.
+
+**In OpenAI Codex:** `codex plugin marketplace add zapier/marketplace` then `codex plugin add wade-skills@zapier`. Or open the in-CLI picker with `/plugins` and toggle it on.
+
+**In GitHub Copilot CLI:** `copilot plugin marketplace add zapier/marketplace` then `copilot plugin install wade-skills@zapier`.
 
 **In Cursor or Claude Code (manual):** drop a skill's folder into `.cursor/skills/` (Cursor) or `.claude/skills/` (Claude Code). The YAML frontmatter at the top of each file (`name` + `description`) is what tells the agent when to invoke it automatically. You can also just paste the file contents into a chat and say "follow this."
 
