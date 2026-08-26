@@ -1,6 +1,7 @@
 ---
-
-## name: espejo-growth-command description: Execute customer acquisition and growth campaigns for ecommerce, agencies, local businesses, digital products, SaaS, and other commercial projects. Use it to get traffic, leads, customers, clients, sales, repeat purchases, referrals, and measurable growth.
+name: espejo-growth-command
+description: Execute customer acquisition and growth campaigns for ecommerce, agencies, local businesses, digital products, SaaS, and other commercial projects. Use it to get traffic, leads, customers, clients, sales, repeat purchases, referrals, and measurable growth.
+---
 
 # ESPEJO GROWTH COMMAND
 
