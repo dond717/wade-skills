@@ -35,3 +35,50 @@ Read [NOTICE](./NOTICE) — it covers trademark use, the "not an official produc
 ## License
 
 MIT — see [LICENSE](./LICENSE).
+
+
+---
+
+## Espejo AI OS
+
+This fork also contains the Espejo AI OS operating layer. These additions do not replace or modify the original Wade/Zapier skill files.
+
+| Skill | File | What it does |
+|---|---|---|
+| Espejo War Room | [espejo-war-room/SKILL.md](./skills/espejo-war-room/SKILL.md) | Strategic decision council for prioritization, risk, revenue, customer value, and execution decisions. |
+| Espejo Research / Intelligence | [espejo-research-intelligence/SKILL.md](./skills/espejo-research-intelligence/SKILL.md) | Research, verification, market and competitor intelligence, GitHub/open-source scouting, cost/dependency auditing, trend watch, and knowledge ingestion. |
+| Espejo Growth Command | [espejo-growth-command/SKILL.md](./skills/espejo-growth-command/SKILL.md) | Customer acquisition, distribution, campaigns, experiments, and measurable growth execution. |
+| Espejo Agentic Engineering | [espejo-agentic-engineering/SKILL.md](./skills/espejo-agentic-engineering/SKILL.md) | Builds and improves agents, software workflows, agent graphs, loops, tools, memory, evals, verification, security, cost control, and autonomous execution. |
+
+### Espejo operating chain
+
+Commander
+→ Research / Intelligence
+→ War Room
+→ Growth Command
+→ Agentic Engineering
+→ Specialist Agents / Tools
+→ Verification
+→ Metrics
+→ Learning
+→ Next Decision
+
+### Routing
+
+- Research / Intelligence feeds War Room for strategic decisions.
+- Research / Intelligence feeds Growth Command for customer acquisition and market signals.
+- Research / Intelligence feeds Agentic Engineering for tools, repositories, integrations, and automation opportunities.
+- War Room decides what should be done.
+- Growth Command determines how to acquire attention, leads, customers, sales, retention, and referrals.
+- Agentic Engineering designs and implements reliable agent/software execution systems.
+
+### Universal operating rules
+
+- Separate facts, assumptions, hypotheses, recommendations, and evidence.
+- Verify before claiming completion.
+- Use bounded loops with explicit stop conditions.
+- Prefer the cheapest reliable model/tool for each job.
+- Keep consequential spending, mass outreach, contracts, destructive changes, sensitive access, unapproved public publishing, and live pricing changes behind human approval.
+- Record meaningful failures and convert them into prevention tests.
+- Prefer reusable capabilities over repeated one-off implementations.
+- Use current research when freshness matters.
