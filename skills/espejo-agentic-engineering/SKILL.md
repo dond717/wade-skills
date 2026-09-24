@@ -348,3 +348,69 @@ An agentic task is DONE only when:
 ## Failures / Risks
 ## Learning
 ## Next 3 Moves
+
+
+---
+
+# AI-NATIVE MATURITY GATE
+
+For any important agent, workflow, or business process, load and apply:
+
+[AI-NATIVE-CLIMB-DOCTRINE.md](./AI-NATIVE-CLIMB-DOCTRINE.md)
+
+Every system must declare:
+
+**CURRENT AI-NATIVE LEVEL: 0 / 1 / 2 / 3 / 4 / 5**
+
+Levels:
+
+0. FOUNDATION — Audit, document, delete, simplify.
+1. CONTEXT — Agent has durable, current business context.
+2. EXECUTION — Agent can complete a real task inside real tools/systems.
+3. DELEGATION — Agent owns a whole job and produces review-ready output.
+4. AUTONOMY — Agent self-triggers with evals, guardrails, recovery, logging, safe stops, cost limits, and approval boundaries.
+5. COMPOUND — Reusable systems scale output and learning without proportional growth in manual effort.
+
+## Promotion Rule
+
+Use:
+
+**ASSIST → EXECUTE → DELEGATE → AUTONOMOUS → COMPOUND**
+
+Do not skip maturity gates for important workflows.
+
+An agent may remain at a lower level permanently when that is safer, cheaper, or more reliable.
+
+More autonomy is not automatically better.
+
+## Level 4 Autonomy Requirement
+
+Do not allow production autonomy until all are true:
+
+- prior levels are satisfied
+- success criteria are explicit
+- eval performance is acceptable
+- false-success risk is understood
+- failure recovery has been tested
+- least-privilege permissions are defined
+- cost per run is measured or bounded
+- retries/iterations are bounded
+- logging and observability are active
+- safe-stop behavior exists
+- human approval boundaries are explicit
+
+Use this definition:
+
+**SAFE AUTONOMY = self-triggered + bounded + observable + verified + recoverable + cost-controlled + permission-limited + human-governed**
+
+## Maturity Report
+
+For relevant execution reports include:
+
+- Current AI-Native Level
+- Evidence
+- Missing Gate
+- Next Promotion Test
+- Human Approval Boundary
+- Cost per Run
+- Verification Method
