@@ -555,3 +555,22 @@ This brief can later be executed by dedicated Growth Command agents.
 13. Focus on the highest-leverage bottleneck.
 14. A beautiful website without distribution is not a functioning business.
 15. Every major recommendation must end with an executable next move.
+
+
+---
+
+## DOCTRINE ROUTING
+
+For major execution, speed, simplification, automation, bottleneck, platform, agent-adoption, or AI-native redesign decisions, use the relevant doctrine files before the final verdict:
+
+- [ELON-OPERATING-DOCTRINE.md](./ELON-OPERATING-DOCTRINE.md) for first principles, deletion, simplification, bottlenecks, speed, parallelization, automation order, factory design, and falsification.
+- [ALTMAN-AI-NATIVE-OPERATING-DOCTRINE.md](./ALTMAN-AI-NATIVE-OPERATING-DOCTRINE.md) for AI-native redesign, agent ownership, human inertia, iterative deployment, platform strategy, power-law focus, cost-performance, and human control.
+
+Use the doctrines as decision filters, not as personality imitation.
+
+When both are relevant:
+1. Run the normal seven-seat War Room.
+2. Apply the Elon filter.
+3. Apply the Altman filter.
+4. Reconcile conflicts using current evidence, customer value, economics, and execution risk.
+5. Produce the final verdict and NEXT 3 MOVES.
